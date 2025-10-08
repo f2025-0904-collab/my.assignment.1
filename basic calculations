@@ -1,0 +1,15 @@
+#include <iostream> 
+using namespace std;
+int main() {
+    int x,y,sum,diff,pro,qot;
+    cout << "enter two numbers";
+    cin >> x >> y;
+    sum = (x+y);
+    diff =(x-y);
+    pro =(x*y);
+    qot =(x/y);
+    cout << " Sum is: " << sum << " Difference is: " << diff << " Product is: " << pro << " Quotient is: " << qot;
+    return 0;
+}
+
+    
